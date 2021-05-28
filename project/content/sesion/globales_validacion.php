@@ -1,0 +1,12 @@
+<?php
+
+define("MAXNOMBRELENGTH", 30);
+define("MAXAPELLIDOLENGTH", 30);
+define("MAXDNILENGTH", 11);
+define("MAXCORREOLENGTH", 254);
+define("MAXDIRECCIONLENGTH", 100);
+define("MAXALIASLENGTH", 11);
+define("MAXPASSLENGTH", 255);
+define("MINPASSLENGTH", 8);
+
+?>

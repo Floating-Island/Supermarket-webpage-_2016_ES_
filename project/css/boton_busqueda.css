@@ -1,0 +1,64 @@
+.busqueda-wrapper /*solo en index.php */
+{
+    margin-left: 25%;
+    margin-right: 25%;
+    margin-bottom: 15px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid rgb(74,32,99);
+}
+.busqueda_box
+{
+    display: block;
+}
+.div_boton_busqueda
+{
+    text-align: center;
+    display: block;
+}
+.form_busqueda
+{
+    display: grid;
+    justify-content: center;
+    grid-template-columns: 2fr 1fr;
+    border: 2px solid rgb(74,32,99);
+    background-color: rgb(74,32,99);
+}
+.buscar_busqueda,.input_busqueda
+{
+    margin: 0;
+    box-shadow: none;
+    border: none;
+}
+.buscar_busqueda
+{
+    cursor:pointer;
+    text-align:center;
+    padding-left: 5px;
+    padding-right: 5px;
+    text-align:center;
+    font-size:1rem;
+    line-height: 2em;
+    font-weight: lighter;
+    background-color:rgb(74,32,99);
+    color: white;
+    cursor: pointer;
+}
+
+.buscar_busqueda:hover
+{
+    background-color:rgb(119, 71, 146);
+    -moz-transition: background-color 0.2s;
+    -webkit-transition: background-color 0.2s;
+    -o-transition: background-color 0.2s;
+    transition: background-color 0.2s;
+}
+
+@media (max-width:490px)
+{
+    .busqueda-wrapper /*solo en index.php */
+    {
+        margin-left: 0;
+        margin-right: 0;
+       
+    }
+}

@@ -1,0 +1,50 @@
+.tabla
+{
+    display: block;
+    margin: 1%;
+    overflow-x: auto;
+    font-size: 0.9rem;
+}
+.tabla_comparar
+{
+    text-align: center;
+    border: 1px solid rgb(74,32,99);
+    border-collapse: collapse;
+    width: 100%;
+    
+}
+.header_tabla
+{
+    color: white;
+    background-color: rgb(74,32,99);
+    border-bottom: 1px solid black;
+}
+.footer_tabla
+{
+    font-weight: bolder;
+    border-top: 1px solid rgb(74,32,99);
+}
+.fila_item_tabla:hover
+{
+    color: white;
+    background-color: rgb(74,32,99);
+}
+.item_tabla:first-child,.footer_tabla:first-child 
+{
+    border-right: 1px solid black;
+}
+.titulo_comparacion
+{
+    border-bottom: 1px solid rgb(74,32,99);
+    margin-bottom: 2%;
+}
+.info_comparacion
+{
+    border: 1px solid rgb(74,32,99);
+    margin: 2%;
+}
+.comparar
+{
+    border: 1px solid rgb(74,32,99);
+    margin: 3%;
+}

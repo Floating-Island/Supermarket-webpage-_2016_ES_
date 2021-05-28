@@ -1,0 +1,24 @@
+.boton_opciones_carrito
+{
+   border: none;
+   text-align:center;
+   vertical-align: middle;
+   font-size:1rem;
+   line-height: 2em;
+   font-weight: lighter;
+   background-color:rgb(74,32,99);
+   margin:0.6%;
+   padding: 4px 2px;
+   color: white;
+   cursor: pointer;
+}
+.boton_opciones_carrito:hover
+{
+    background-color:rgb(119, 71, 146);
+    -moz-transition: background-color 0.1s;
+    -webkit-transition: background-color 0.1s;
+    -o-transition: background-color 0.1s;
+    transition: background-color 0.1s;
+}
+
+

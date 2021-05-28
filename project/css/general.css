@@ -1,0 +1,131 @@
+*
+{
+    font-family: 'Poppins', sans-serif;
+}
+a 
+{
+    text-decoration: none;
+    -webkit-user-select: none; /* Safari 3.1+ */
+    -moz-user-select: none; /* Firefox 2+ */
+    -ms-user-select: none; /* IE 10+ */
+    user-select: none; /* Standard syntax */
+}
+html
+{
+    font-size: 1rem;
+    box-sizing: border-box;
+}
+*,*:before,*:after
+{
+    box-sizing: inherit;
+}
+body
+{
+    background-color: rgb(237,237,237);
+    overflow-y: scroll;
+}
+.sin_javascript
+{
+    display:block;
+    height:50px;
+    background-color: #EACC23;
+    font-size: 2rem;
+    text-align: center;
+    font-weight: bolder.
+}
+.titulo
+{
+    display: block;
+    width: 100%;
+    text-align: center;
+    padding-top: 10px
+    background-color: rgb(237,237,237);
+    color:rgb(74,32,99);
+    border-bottom: 1px solid rgb(74,32,99);
+}
+.content_box
+{
+    display: block;
+    margin-top: 3vh;
+    margin-bottom: 3vh;
+    min-height:10vh;
+}
+.grid-content
+{
+    display: grid;
+    justify-content: space-between;
+    grid-template-columns: 1fr 3fr;
+}
+.left
+{ 
+    grid-column-start: 1;
+    grid-column-end: 1;
+    grid-row-start: 1;
+    grid-row-end: 1; 
+}
+.left_content
+{
+    border-right: 1px solid black;
+    border-bottom: 1px solid black;
+    padding: 15px 30px;
+}
+.center_content
+{
+    padding-top: 25px;
+    text-align: center;
+}
+
+
+/* index */
+.grid-content-index
+{
+    display: grid;
+    justify-content: space-between;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto auto;
+}
+
+/* end-index */
+
+
+/* carrito */
+
+.opciones_carrito
+{
+    padding: 20px;
+    border-bottom: 1px solid black;
+    display: grid;
+    justify-content: space-evenly;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+/* end-carrito */
+
+
+/* media-queries */
+
+@media (max-width:630px)
+{
+    .grid-content
+    {
+        grid-template-columns: 1fr;
+    }
+    .left_content
+    {
+        border-right: none;
+    }
+}
+@media (max-width:490px)
+{
+    .opciones_carrito
+    {
+        padding: 20px;
+        border-bottom: 1px solid black;
+        display: grid;
+        justify-content: space-evenly;
+        grid-template-columns: 1fr 1fr 1fr;
+        vertical-align: middle;
+    }
+}
+
+/* media-queries-end */

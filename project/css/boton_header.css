@@ -1,0 +1,47 @@
+.div_boton_header
+{
+    display: block;
+    margin-top: 3vh;
+    margin-bottom: 3vh;
+    text-align: center;
+}
+
+.boton_header_grid
+{
+    display: grid;
+    justify-content: space-between;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.boton_header
+{
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    vertical-align: middle;
+    font-size: 1rem;
+    font-weight: lighter;
+    background-color:rgb(74,32,99);
+    color: white;
+    cursor: pointer;
+}
+
+.boton_header:hover
+{
+    background-color:rgb(119, 71, 146);
+    -moz-transition: background-color 0.1s;
+    -webkit-transition: background-color 0.1s;
+    -o-transition: background-color 0.1s;
+    transition: background-color 0.1s;
+}
+
+
+@media (max-width:490px)
+{
+    .boton_header_grid
+    {
+        display: grid;
+        justify-content: space-around;
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 1fr 1fr;
+    }
+}

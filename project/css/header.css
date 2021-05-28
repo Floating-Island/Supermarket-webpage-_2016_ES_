@@ -1,0 +1,88 @@
+header
+{
+    display: block;
+}
+
+.header_box
+{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-content: space-between;
+    background-color: rgb(237,237,237);
+    border-bottom: 1px solid rgb(74,32,99);
+    font-size: 0rem; /*para sacar espacio creado por display:block o display:inline-block*/
+}
+.header_left
+{
+    font-size: 2rem;/*para devolver el espacio sacado por .header_box*/
+    vertical-align: center;
+}
+.header_right
+{
+    text-align: right;
+    font-size: 1rem;/*para devolver el espacio sacado por .header_box*/
+}
+.header_logo_img
+{
+    -webkit-user-select: none; /* Safari 3.1+ */
+    -moz-user-select: none; /* Firefox 2+ */
+    -ms-user-select: none; /* IE 10+ */
+    user-select: none; /* Standard syntax */
+}
+
+.titulo_header
+{
+    color:rgb(74,32,99);
+    font-family: 'Nunito', sans-serif;
+}
+
+.boton_sesion
+{
+    
+    border: none;
+    text-align:center;
+    font-size:1rem;
+    line-height: 2rem;
+    font-weight: lighter;
+    background-color:rgb(74,32,99);
+    padding: 0.8% 0.9%;
+    color: white;
+    cursor: pointer;
+}
+.welcome_sesion
+{
+    border: none;
+    text-align:center;
+    font-size: 1rem;
+    line-height: 2rem;
+    font-weight: lighter;
+    background-color:rgb(74,32,99);
+    padding: 0.8% 0.9%;
+    color: white;
+}
+
+.boton_sesion:hover
+{
+    background-color:rgb(119, 71, 146);
+    -moz-transition: background-color 0.1s;
+    -webkit-transition: background-color 0.1s;
+    -o-transition: background-color 0.1s;
+    transition: background-color 0.1s;
+}
+
+@media (max-width:490px)
+{
+    .header_box
+    {
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 1fr;
+    }
+    .header_right
+    {
+        text-align: center;
+    }
+    .header_left
+    {
+        text-align: center;
+    }
+}

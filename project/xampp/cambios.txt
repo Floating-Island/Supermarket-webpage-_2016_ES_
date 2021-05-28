@@ -1,0 +1,9 @@
+C:\xampp\php\php.ini , se reemplazó el original para habilitar el envío de mensajes.
+
+
+c:\xampp\sendmail\sendmail.ini , se reemplazó el original para poder mandar mensajes (tenés que cambiar la parte de TU EMAIL y TU PASSWORD para que ande)
+
+
+
+
+https://stackoverflow.com/questions/15965376/how-to-configure-xampp-to-send-mail-from-localhost
